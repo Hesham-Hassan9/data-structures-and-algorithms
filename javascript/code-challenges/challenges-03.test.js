@@ -224,18 +224,18 @@ For example: evenOddNumericValues(['Gregor', 2, 4, 1]) returns ['even', 'even', 
 
 const evenOddNumericValues = (arr) => {
   // Solution code here...
-  let newArray = [];
+  let newArr = [];
   let array = [];
-  arr.filter(value=>{
-    if (typeof value === 'number'){
-      newArray.push(value);
+  arr.filter(val=>{
+    if (typeof val === 'number'){
+      newArr.push(val);
     }
   });
-  newArray.map(value=>{
-    if (value%2 === 0 && typeof value === 'number'){
+  newArr.map(val=>{
+    if (val%2 === 0 && typeof val === 'number'){
       array.push('even');
     }
-    if (value%2 !== 0 && typeof value === 'number'){
+    if (val%2 !== 0 && typeof val === 'number'){
       array.push('odd');
     }
   });
