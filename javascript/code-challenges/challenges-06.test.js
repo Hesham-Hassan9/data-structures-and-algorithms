@@ -100,8 +100,7 @@ console.log(people[1].isAuthor) prints true
 ------------------------------------------------------------------------------------------------ */
 
 const setStatusAsAuthor = (people) => {
-  starWarsArr.sort((a,b) => b.height - a.height);
-
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
